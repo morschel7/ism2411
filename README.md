@@ -28,24 +28,27 @@ Open a terminal in the repository folder and run:
 python3 week07/functions.py
 ```
 
+
 ## Reflection
 
 ### 1. Git Commit History
 
 My Git commit history:
 
-```text
-Paste the output of git log --oneline here
+```
+b347983 add lab 8 reflection to README
+135940a add README with module listing and run instructions
+d054ee3 add module 7 functions lab
+ff58c21 add .gitignore for Python and OS files
+cfc0f91 Initial commit
 ```
 
-What my commit history says about how I work:
-
-[Write what a potential employer could learn from your commits.]
+I think my commit history shows that I work in an organized way and make changes step by step. Instead of uploading everything at once, I made separate commits for each part of the assignment. If an employer looked at my history, they would see that I document my progress and keep track of my work.
 
 ### 2. How Git Changes My Workflow
 
-[Write 2–3 sentences about how Git changes the way you edit and save your Python scripts.]
+Before learning Git, I would just save my Python files in VS Code without keeping track of previous versions. Now I can make commits whenever I finish an important change, so if something goes wrong, I can go back to an earlier version. This makes me feel more comfortable making changes to my code because I know I won't lose my previous work.
 
 ### 3. Additional .gitignore Entry
 
-[Name one additional file or folder specific to your workflow that you would ignore, and explain why.]
+I would add `.ipynb_checkpoints/` to my `.gitignore` because I will be using Jupyter notebooks in this class. Jupyter creates automatic checkpoint files, and I don't think those need to be uploaded to GitHub because they are just backup files.
