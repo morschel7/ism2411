@@ -18,7 +18,7 @@ Each folder contains work from a specific course module.
 ## Modules
 
 - `week07/` — Functions, debugging, and Python calculations
-- `week08/` — Git and GitHub version control
+- Module 08 — Git and GitHub version control
 
 ## How to Run
 
@@ -52,3 +52,8 @@ Before learning Git, I would just save my Python files in VS Code without keepin
 ### 3. Additional .gitignore Entry
 
 I would add `.ipynb_checkpoints/` to my `.gitignore` because I will be using Jupyter notebooks in this class. Jupyter creates automatic checkpoint files, and I don't think those need to be uploaded to GitHub because they are just backup files.
+
+
+## AI Disclosure
+
+I used ChatGPT to help me understand the Git and GitHub setup process, troubleshoot terminal commands, and draft and format my README reflections.
